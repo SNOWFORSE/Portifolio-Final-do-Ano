@@ -1,50 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-    --azulfortao: rgba(0, 18, 43, 0.993);
-    --azulforte: #00193bff;
-    --azulfort: #001e45ff;
-    --azulin: #002657ff;
-    --azulinho: #002d67ff;
-    --azulzinho: #00377eff;
-    --preto: #000;
-    --branco: #fff;
+    --azul-escuro: #1A237E;
+    --azul-médio: #3949AB;
+    --azul-claro: #7986CB;
+    --preto: #000000; 
+    --cinza-escuro: #424242;
+    --branco: #FFFFFF;
     --fonte-titulo: "Roboto", sans-serif;
     --fonte-texto: "Nunito", sans-serif;
 }
 
-body{
+body {
     font-family: var(--fonte-texto);
     font-weight: bolder;
-    color: var(--azulzinho);
-    background-color: var(--azulfortao);
+    color: var(--azul-claro);
+    background-color: var(--preto);
 }
 
-.img-thumbnail{
-    border: 2px solid var(--branco)
+.img-thumbnail {
+    border: 2px solid var(--azul-escuro);
 }
 
-h1,h2{
+h1, h2 {
     font-family: var(--fonte-titulo);
+    color: var(--azul-claro);
 }
 
-.card{
-    color: var(--branco);
-    background-color: var(--azulfort);
-}
-
-.btn{
-    background-color: var(--azulzinho);
-}
-
-.btn:hover{
+.card {
     color: var(--preto);
-    background-color: var(--azulin);
+    background-color: var(--azul-médio);
+}
+
+.btn {
+    background-color: var(--azul-escuro);
+    color: var(--preto);
+}
+
+.btn:hover {
+    color: var(--preto);
+    background-color: var(--cinza-escuro);
     transition: 0.8s;
 }
 
-.footer-link{
+.footer-link {
     text-decoration: none;
     font-size: 1.2em;
-    color: var(--azul);
+    color: var(--azul-claro);
 }
